@@ -1,0 +1,47 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background-image: linear-gradient(  to right,rgb(224, 210, 224), rgb(128, 228, 231) ,rgb(85, 75, 228));
+  
+}
+header{
+  display: flex;
+  width: 57%;
+  border-radius: 10px;
+  background-color: rgb(128, 152, 229,0.63);
+  border: 10px outset rgb(27, 185, 164);
+  padding: 15px;
+ 
+}
+.sobre{
+  
+  display: flex; /* Exibe os contêineres lado a lado */
+  justify-content: center; /* Centraliza os contêineres no eixo horizontal */
+}
+.container{
+  text-align: center;
+margin: 30px auto;
+  background-color: rgba(128, 152, 229, 0.63);
+  border: 10px outset rgb(27, 185, 164);
+  color: rgb(26, 22, 22); /* mudar a cor do texto */
+  border-radius: 10px; /* arredondar a borda */
+  padding: 15px; /* Espaço interno, a separação da borda do texto */
+  box-shadow: 0px 0px 20px 5px rgba(14, 13, 13, 0.788); /* coloca sombra  e pode desloca-lá e/ou desfoca-lá */
+  width: 20%;
+}
+button{
+  padding: 10px 20px; /* Adiciona padding interno para os botões */
+      font-size: 16px; /* Tamanho da fonte */
+      cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+      background-image: linear-gradient(  to right,rgb(224, 210, 224), rgb(128, 228, 231) ,rgb(85, 75, 228));
+  
+  }
+  footer {
+    display: flex;
+    width: 55%;
+    border-radius: 10px;
+  background-color: rgb(128, 152, 229,0.63);
+  border: 10px outset rgb(27, 185, 164);
+  padding: 15px;
+    
+  }
+
